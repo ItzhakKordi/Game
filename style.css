@@ -14,11 +14,15 @@ body
 {
     font-size: 24px;
     font-style: italic;
+    background-color: white;
+    font-weight: bold;
 }
 #l2
 {
     font-size: 24px;
     font-style: italic;
+    background-color: white;
+    font-weight: bold;
 }
 #p1.progress
 {
