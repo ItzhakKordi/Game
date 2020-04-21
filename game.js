@@ -70,12 +70,12 @@ function switchTurn(player)
     if (player1health <= 0 )
     {
     window.alert(player2Name+" has won the match!");
-    window.location.href = "https://www.youtube.com/watch?v=JAEDQwMtf4o";
+    window.location.href = "https://www.youtube.com/watch?v=UJdtg-XtG1c";
     }
     if (player2health <= 0 )
     {
     window.alert(player1Name+" has won the match!");
-    window.location.href = "https://www.youtube.com/watch?v=JAEDQwMtf4o";
+    window.location.href = "https://www.youtube.com/watch?v=UJdtg-XtG1c";
     }
     
     
