@@ -1,0 +1,26 @@
+#dod {
+    background-image: url(banner.jpg);
+    height: 100px;
+}
+body
+{
+    background-image: url(backround.jpg);
+}
+#turn
+{
+    background-color: brown;
+}
+#l1
+{
+    font-size: 24px;
+    font-style: italic;
+}
+#l2
+{
+    font-size: 24px;
+    font-style: italic;
+}
+#p1.progress
+{
+    background-color: rgb(238, 18, 165);
+}
