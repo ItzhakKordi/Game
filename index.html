@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="game.js">
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <button onclick="punch()">
-        Use punch!
-    </button>
+    <h1 style="text-align: center;font-size: 50px;background-color: hotpink;">THE DOD GAME</h1>
+    <h1 id="turn">ITS DODS 1 TURN!</h1>
+
+    <label id="l1" for="p1">Player 1 health:</label>
+    <progress id="p1" value="100" max="100"> 32% </progress>
+
+    <label id="l2" for="p2">Player 2 health:</label>
+    <progress id="p2" value="100" max="100"> 32% </progress>
+
+    <br>
+
+
+
+    <button onclick="punch()">Use punch! </button>
     <button onclick="kick()">Use kick!</button>
-    <p>this is a change made by hussein</p>
+    <button onclick="headbutt()">Use headbutt!</button>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="game.js"></script>
 </body>
 </html>
